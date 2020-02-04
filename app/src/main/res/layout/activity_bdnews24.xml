@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:orientation="vertical"
+    android:weightSum="13"
+    android:layout_height="match_parent"
+    tools:context=".Bangla.ProthomAlo">
+
+
+    <WebView
+        android:layout_weight="12"
+
+        android:id="@+id/webviewId"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></WebView>
+
+
+
+    <com.google.android.gms.ads.AdView
+        android:layout_weight="1"
+
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-4248114886151875/8095053575">
+    </com.google.android.gms.ads.AdView>
+
+
+
+</LinearLayout>

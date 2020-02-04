@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hreday.sagar.AllBanglaNewspaperinbd">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+
+        android:usesCleartextTraffic="true"
+        android:icon="@drawable/newspaper"
+        android:label="News And LiveTv"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.MainActivity"></activity>
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.LiveTelevision.Live2"
+
+            />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.LiveTelevision.Jamuna"
+
+
+           />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.LiveTelevision.AtnNews"
+            />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.LiveTelevision.Channel24"
+            />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.LiveTelevision.Rtv"
+           />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.LiveTelevision.Ntv"
+            />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.LiveTelevision.SomoiTv"
+           />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.LiveTelevision.Bioscope"
+           />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.LiveTelevision.Gtv"
+           />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.LiveTelevision.Jagobd"
+            />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.Job.JobJobJob"
+           />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.Job.ChakriJob"
+           />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.Job.Weekly"
+           />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.Job.Bdjobs"
+           />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.Sports.SkySports"
+           />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.Sports.Crickbuzz"
+           />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.Job.PartTimeJobs"
+           />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.Job.GovtJobs"
+
+           />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.Job.Jobs"
+          />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.Job.PrivateJobs"
+            />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.Sports.Bddailysports"
+           />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.Sports.DhakaTimesSports"
+          />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.Sports.Bdnews24Sports"
+
+           />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.Sports.SomokalSports"
+           />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.Sports.JugantorSports"
+           />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.Sports.Kalerkonthosports"
+            />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.Sports.IttefaqSports"
+           />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.Sports.Prothomalosports"
+           />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.English.China"
+           />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.English.Turkey"
+           />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.English.Pakistan"
+           />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.English.Japan"
+           />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.English.Sydney"
+           />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.English.India"
+            />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.English.Washinton"
+            />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.English.Newwork"
+           />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.English.World"
+           />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.English.Gurdian"
+           />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.Bangla.Jaijaidin"
+           />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.Bangla.Dhakatimes"
+           />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.Bangla.Manobjomin"
+           />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.Bangla.Somokal"
+           />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.Bangla.Kalerkontho"
+           />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.Bangla.Bdnews24"
+           />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.Bangla.Bdprotidin"
+           />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.Bangla.BbcBangla"
+           />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.Bangla.Jugantor"
+            />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.Bangla.Ittefaq"
+            />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.Bangla.Jonokontho"
+            />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.Bangla.ProthomAlo"
+           />
+        <activity android:name="hreday.sagar.AllBanglaNewspaperinbd.Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4248114886151875~7711910196" />
+    </application>
+
+</manifest>
